@@ -12,12 +12,12 @@ Your CSV must have the column titles in the first line.
 
 Available options:
 
-- **tableClass**: CSS class for the <table> element (default: empty)
-- **headerRowClass**: CSS class for the <thead> element (default: empty)
+- **tableClass**: CSS class for the \<table\> element (default: empty)
+- **headerRowClass**: CSS class for the \<thead\> element (default: empty)
 - **previousButtonClass**: CSS class for the Previous Page button in pagination (default: empty)
 - **nextButtonClass**: CSS class for the Next Page button in pagination (default: empty)
 - **containerPaginationClass**: CSS class for the container of the table (default: empty)
-- **lengthSelectorClass**: CSS class for <select> element (default: empty)
+- **lengthSelectorClass**: CSS class for \<select\> element (default: empty)
 - **searchBoxClass**: CSS class for the Search box (default: empty)
 - **locale**: Language to be used in the labels (default: en-US)
 
