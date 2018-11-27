@@ -69,7 +69,7 @@ $('.your-container').tabulate(json, options, function(){
 
 ## Author
 
-[Junior Herval](https://www.juniorherval.com.br)
+[Junior Herval](http://www.juniorherval.com.br)
 
 ## License
 
