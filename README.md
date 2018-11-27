@@ -24,19 +24,20 @@ Your CSV must have the column titles in the first line.
 - **locale**: Language to be used in the labels (default: en-US)
 
 **Localization**
+
 Only English and Brazilian Portuguese options are available. To use another language, add the code below to a javascript file, change the locale indicator and translate the texts keeping the keywords.
 
 ```javascript
 $.fn.tabulate.regional = {
-	'en-US' : {
+    'en-US' : {
         previousButtonText: 'Previous',
         nextButtonText: 'Next',
         infoText: 'From FROM to TO of TOTAL',
         lengthSelectorText: 'Show SELECT records',
         emptySet: 'No records found',
         search: 'Search: '
-     }
- };
+    }
+};
 ```
 
 ## Example
