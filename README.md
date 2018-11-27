@@ -12,22 +12,20 @@ Your CSV must have the column titles in the first line.
 
 Available options:
 
-| Option | Description | Default |
-| ------------- | ------------- |
-| tableClass  | CSS class for the <table> element  | Empty |
-| headerRowClass  | CSS class for the <thead> element  | Empty |
-| previousButtonClass  | CSS class for the Previous Page button in pagination  | Empty |
-| nextButtonClass  | The CSS class for the Next Page button in pagination  | Empty |
-| containerPaginationClass  | The CSS class for the container of the table  | Empty |
-| lengthSelectorClass  | The CSS class for <select> element  | Empty |
-| searchBoxClass  | The CSS class for the Search box  | Empty |
-| locale  | Language to be used in the labels  | en-US |
+- **tableClass**: CSS class for the <table> element (default: empty)
+- **headerRowClass**: CSS class for the <thead> element (default: empty)
+- **previousButtonClass**: CSS class for the Previous Page button in pagination (default: empty)
+- **nextButtonClass**: CSS class for the Next Page button in pagination (default: empty)
+- **containerPaginationClass**: CSS class for the container of the table (default: empty)
+- **lengthSelectorClass**: CSS class for <select> element (default: empty)
+- **searchBoxClass**: CSS class for the Search box (default: empty)
+- **locale**: Language to be used in the labels (default: en-US)
 
 ## Example
 
 **Using Bootstrap 4 CSS**
 
-```
+```javascript
 var options = {
     tableClass : 'table table-bordered table-striped table-sm',
     headerRowClass: 'thead-light',
@@ -48,7 +46,6 @@ var json = {
 $('.your-container').tabulate(json, options, function(){
     /** Your callback function **/
 });
-
 ```
 
 ## Author
